@@ -1,0 +1,9 @@
+{
+  "name": "ecolens-auth-node-reference",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reference Cognito JWT verifier for second-cloud / Node functions",
+  "dependencies": {
+    "aws-jwt-verify": "^4.0.1"
+  }
+}

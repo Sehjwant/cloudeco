@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# ML model weights — too large for git; stored in cloud object storage
+*.pt
+*.zip
+
+# draw.io desktop backups
+*.bkp
+
+# Local assignment reports (kept here for tracking, never committed)
+Individual Report*.md
+my-session.md
+Team_Report_Aussie_EcoLens.pdf

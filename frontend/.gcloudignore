@@ -1,0 +1,8 @@
+# Whitelist approach: ignore everything, then include only what the Dockerfile
+# needs (the prebuilt bundle + container config). Avoids unanchored patterns
+# accidentally matching files inside dist/.
+*
+!Dockerfile
+!nginx.conf
+!dist/
+!dist/**

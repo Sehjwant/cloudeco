@@ -1,0 +1,2 @@
+# PyJWT[crypto] pulls in `cryptography`, required for RS256 verification.
+PyJWT[crypto]>=2.8.0
